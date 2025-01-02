@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mada", sans-serif;
+}
+
+/* <---------------- Navbar Start ----------------> */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+nav h1 {
+    font-size: 20px;
+    color: #022970;
+}
+
+nav .nav-item ul li {
+    display: inline;
+}
+
+nav .nav-item ul li a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #000;
+    font-size: 15px;
+}
+
+nav .nav-item ul li a:hover {
+    color: #4154f1;
+}
+
+nav .nav-item ul button {
+    margin-left: 13px;
+    background-color: #4154f1;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+/* <---------------- Navbar End ----------------> */
+
+/* <---------------- Section Start ----------------> */
+
+section {
+    background-color: #ddeaeb;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-content {
+    max-width: 450px;
+    margin-right: 50px;
+}
+
+section .section-content h1 {
+    font-size: 35px;
+    color: #022970;
+    margin-bottom: 8px;
+}
+
+section .section-content p {
+    font-size: 15px;
+    color: #797676;
+    margin-bottom: 28px;
+}
+
+section .section-content button {
+    background-color: #4154f1;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+section .section-content button i {
+    margin-left: 5px;
+}
+
+section .section-img img {
+    width: 350px;
+}
+
+/* <---------------- Section End ----------------> */
+
+/* <---------------- Artical Start ----------------> */
+
+article {
+    height: 110vh;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+article button {
+    background-color: #dfe7fe;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 8px 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+article h1 {
+    margin-top: 10px;
+    color: #022970;
+}
+
+article .value-card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+article .value-card .value-card-content {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 300px;
+    padding: 50px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+article .value-card .value-card-content img {
+    width: 150px;
+}
+
+article .value-card .value-card-content p {
+    font-size: 17px;
+    color: #022970;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+article .value-card .value-card-content span {
+    font-size: 11px;
+    color: #797676;
+    margin-bottom: 15px;
+}
+
+article .value-card2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+article .value-card2 .value-card-content2 {
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    gap: 3px;
+}
+
+article .value-card2 .value-card-content2 i {
+    font-size: 35px;
+    color: #4154f1;
+    margin-top: 10px;
+}
+
+article .value-card2 .value-card-content2 .fa-book {
+    color: #ee6c28;
+}
+
+article .value-card2 .value-card-content2 .fa-headphones {
+    color: #30be56;
+}
+
+article .value-card2 .value-card-content2 .fa-user-group {
+    color: #bb0852;
+}
+
+article .value-card2 .value-card-content2 .text-content {
+    margin-left: 10px;
+}
+
+article .value-card2 .value-card-content2 .text-content p {
+    font-size: 26px;
+    color: #022970;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+article .value-card2 .value-card-content2 .text-content span {
+    font-size: 13px;
+    color: #797676;
+}
+
+/* <---------------- Artical End ----------------> */
+
+
+/* <---------------- Features (main) Start ----------------> */
+
+main {
+    height: 90vh;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+main button {
+    background-color: #dfe7fe;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 8px 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+main h1 {
+    font-size: 26px;
+    margin-top: 10px;
+    color: #022970;
+}
+
+main .feature-card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .feature-card .img-card {
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+main .feature-card .img-card img {
+    width: 500px;
+}
+
+main .feature-card .list-card {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+main .feature-card .list-item {
+    border: 1px solid #e5e5e5;
+    width: 240px;
+    display: flex;
+    padding: 20px;
+}
+
+main .feature-card .list-item i {
+    border: 1px solid#f0f1ff;
+    padding: 4px;
+    background-color: #f0f1ff;
+    color: #4154f1;
+    margin-right: 10px;
+}
+
+main .feature-card .list-item p {
+    /* font-size: 20px; */
+    font-weight: 600;
+    color: #022970;
+    margin-top: 6px;
+}
+
+/* <---------------- Features (main) End ----------------> */
+
+
+/* <---------------- Services (summary) Start ----------------> */
+
+summary {
+    height: 140vh;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+summary button {
+    background-color: #dfe7fe;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 8px 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+summary h1 {
+    font-size: 26px;
+    margin-top: 10px;
+    color: #022970;
+}
+
+summary .services-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 10%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+summary .services-card-content {
+    width: 300px;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+summary .services-card-content p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #022970;
+    margin-bottom: 10px;
+}
+
+summary .services-card-content span {
+    font-size: 12px;
+    color: #797676;
+}
+
+summary .services-card-content a {
+    margin-top: 15px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+summary .services-card-content a i {
+    margin-left: 5px;
+}
+
+summary .blue {
+    border-bottom: 3px solid #1dcbf0;
+}
+
+summary .blue a {
+    color: #1dcbf0;
+}
+
+summary .orange {
+    border-bottom: 3px solid #fc8322;
+}
+
+summary .orange a {
+    color: #fc8322;
+}
+
+summary .green {
+    border-bottom: 3px solid #2dc896;
+}
+
+summary .green a {
+    color: #2dc896;
+}
+
+summary .red {
+    border-bottom: 3px solid #e02333;
+}
+
+summary .red a {
+    color: #e02333;
+}
+
+summary .purple {
+    border-bottom: 3px solid #6733f2;
+}
+
+summary .purple a {
+    color: #6733f2;
+}
+
+summary .pink {
+    border-bottom: 3px solid #f33192;
+}
+
+summary .pink a {
+    color: #f33192;
+}
+
+/* <---------------- Services (summary) End ----------------> */
+
+
+/* <---------------- Pricing (aside) Start ----------------> */
+
+aside {
+    height: 140vh;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+aside button {
+    background-color: #dfe7fe;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 8px 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+aside h1 {
+    font-size: 26px;
+    margin-top: 20px;
+    color: #022970;
+}
+
+aside .pricing-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 13%;
+    column-gap: 15px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #f0f1ff;
+}
+
+aside .pricing-card .pricing-card-content {
+    height: 450px;
+    padding: 40px 50px;
+    background-color: #f1f0f0;
+    border-radius: 5px;
+}
+
+aside .pricing-card .pricing-card-content h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #2dc896;
+
+}
+
+aside .pricing-card .pricing-card-content p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+aside .pricing-card .pricing-card-content p sup {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+aside .pricing-card .pricing-card-content p span {
+    font-size: 12px;
+    color: #797676;
+}
+
+aside .pricing-card .pricing-card-content img {
+    width: 75px;
+}
+
+aside .pricing-card .pricing-card-content .pricing-text p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #797676;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+aside .green p:nth-child(4),
+aside .green p:nth-child(5) {
+    text-decoration: line-through;
+}
+
+aside .blue p:nth-child(5) {
+    text-decoration: line-through;
+}
+
+aside .pricing-card .blue h6 {
+    color: #34cff0;
+}
+
+aside .pricing-card .orange h6 {
+    color: #ee6c28;
+}
+
+aside .pricing-card .purple h6 {
+    color: #438efa;
+}
+
+
+aside .pricing-card .pricing-card-content button {
+    background-color: transparent;
+    border: 1px solid #4154f1;
+    outline: 0;
+    border-radius: 50px;
+    color: #4154f1;
+    font-size: 12px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+/* <---------------- Pricing (aside) End ----------------> */
+
+/* <---------------- Footer Start ----------------> */
+
+footer p {
+    font-size: 14px;
+    color: #849fb9;
+    margin-bottom: 10px;
+}
+
+footer p b {
+    color: #000;
+}
+
+footer span {
+    color: #849fb9;
+    font-size: 12px;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #6733f2;
+}
+
+/* <---------------- Footer End ----------------> */
